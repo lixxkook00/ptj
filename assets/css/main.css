@@ -19,3 +19,11 @@
 .header-bg-color, .header-wrapper{
     background-color: #11202c !important;
 }
+
+#section_1454021718 .flickity-viewport{
+    height: 280px !important;
+}
+
+#col-1573209808{
+    position: relative;
+}
