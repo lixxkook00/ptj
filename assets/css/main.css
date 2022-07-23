@@ -1,0 +1,21 @@
+#logo{
+    margin: 0;
+}
+
+.logo-home{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-home img{
+    margin: 0;
+}
+
+#masthead{
+    margin: 10px 0;
+}
+
+.header-bg-color, .header-wrapper{
+    background-color: #11202c !important;
+}
