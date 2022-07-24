@@ -1,3 +1,27 @@
+@keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
 #logo{
     margin: 0;
 }
@@ -17,7 +41,7 @@
 }
 
 .header-bg-color, .header-wrapper{
-    background-color: #11202c !important;
+    background-color: #0099FF !important;
 }
 
 #section_1454021718 .flickity-viewport{
@@ -35,8 +59,17 @@
     height: 33px;
 }
 
+#masthead{
+    margin-top: 0;
+}
+
+.header .flex-row{
+    padding-bottom: 0 !important;
+}
+
 .giuseart-nav li .button .phone_animation{
-    background-color: #152735  !important;
+    background-color: #fff !important;
+    border: 2px solid #0099FF !important;
 }
 
 .giuseart-nav li .button .phone_animation .giuseart-nav-icon{
@@ -46,13 +79,15 @@
 .giuseart-nav li .button .phone_animation .giuseart-nav-icon i{
     height: 33px !important;
     width: 33px !important;
+    transition: all 0.5s ease-in-out;
+    animation: coccoc-alo-circle-img-anim 2s infinite ease-in-out;
 }
 
 .giuseart-nav-icon i {
     font-size: 20px;
     height: 20px !important;
     width: 20px !important;
-    color: #bda165;
+    color: #0099FF;
 }
 
 
